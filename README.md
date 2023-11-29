@@ -3,4 +3,4 @@
 
 ## 文件说明
 - `preprocessing.py`信息爬取和预处理
-- `analystic.py`人物出现次数和人物关系分析
+- `analystic.py`人物出现次数和人物关系分析，人物关系图存入`edge.csv`和`node.csv`文件中，可用Gephi打开
