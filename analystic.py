@@ -59,6 +59,7 @@ def social_network():
         writer=csv.writer(f)
         writer.writerow(['Source','Target','Weight','Type'])
         writer.writerows(edges)
+
 if __name__=='__main__':
-    #name_draw()
+    name_draw()
     social_network()
